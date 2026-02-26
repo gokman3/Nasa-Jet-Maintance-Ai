@@ -24,7 +24,8 @@ This project is an interactive, web-based AI dashboard designed to predict the *
 
 ## 📂 Project Structure
 
-jet-engine-maintenance/
+```text
+Nasa-Jet-Maintance-Ai/
 ├── app.py                 # Main Streamlit application script
 ├── requirements.txt       # Exact version dependencies for deployment
 ├── README.md              # Project documentation
@@ -33,6 +34,7 @@ jet-engine-maintenance/
     ├── minmax_scaler.pkl  # Scaler for FD001 dataset
     ├── xgboost_fd004.pkl  # XGBoost model for FD004 dataset
     └── kmeans_fd004.pkl   # KMeans model for regime clustering (FD004)
+```
 
 ## ⚙️ How to Run Locally
 
